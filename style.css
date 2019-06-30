@@ -163,3 +163,50 @@ ul.social_info{
 .progressHeight{
   height: 300px;
 }
+
+
+/* 
+============================================
+Responsive Design Start Here..
+============================================
+*/
+
+
+
+@media only screen and (max-width: 1024px){
+    .job-company {
+        font-size: 20px;
+    }
+    .job-duration {
+        font-size: 16px;
+    }
+    .job-title {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .job-duration {
+        font-size: 15px;
+    }
+    .title-block .title{
+        padding: 10px 40px 10px 5px;
+        font-size: 15px;
+    }
+
+    ul.personal_info li span:first-child {
+        width: 95px;
+    }
+
+}
